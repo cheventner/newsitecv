@@ -28,6 +28,7 @@ body, html{
   height: 55%;
   background-image: url(../images/logo_petit.png);
   background-repeat: no-repeat;
+  display: flex;
 }
 
 
