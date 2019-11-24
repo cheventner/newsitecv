@@ -28,22 +28,32 @@ body, html{
   height: 55%;
   background-image: url(../images/logo_petit.png);
   background-repeat: no-repeat;
-  display: flex;
+  background-position: center;
 }
-
-
+.identite{
+  text-align: center;
+  color: #178d9a;
+}
+/*
 p{
     font-family: 'Titillium Web', sans-serif;
     margin-top: 20px;
     text-align: center;
 }
+*/
+
 /* header */
 /* défilement du texte */
-.defile{
+#defile{
   animation-duration: 3s;
   animation-name: slidein;
   color: #178d9a;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  
+
+
 }
 @keyframes slidein {
   from{
